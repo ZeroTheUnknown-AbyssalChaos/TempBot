@@ -11,4 +11,4 @@ const { SlashCommandBuilder } = require('discord.js');
 
         await interaction.editReply(`🎲 Du hast eine ${result} gewürfelt!`);
     },
-}
+}*/
