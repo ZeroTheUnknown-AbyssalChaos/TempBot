@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('discord.js');
 
-module.exports = {
+/*module.exports = {
     data: new SlashCommandBuilder()
         .setName('wuerfel')
         .setDescription('Würfelt eine zufällige Zahl zwischen 1 und 6'),
