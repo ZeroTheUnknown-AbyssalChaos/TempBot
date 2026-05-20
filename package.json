@@ -1,23 +1,23 @@
 {
   "name": "tempbot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "Test Bot for learning purposes",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZeroTheUnknown-AbyssalChaos/TempBot.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/ZeroTheUnknown-AbyssalChaos/TempBot/issues"
+  "author": {
+    "name": "Zero",
+    "github": "ZeroTheUnknown-AbyssalChaos",
+    "discord": "indicator#9754"
   },
+  "license": "MIT",
+  "type": "commonjs",
   "homepage": "https://github.com/ZeroTheUnknown-AbyssalChaos/TempBot#readme",
   "dependencies": {
     "discord.js": "^14.26.4",
