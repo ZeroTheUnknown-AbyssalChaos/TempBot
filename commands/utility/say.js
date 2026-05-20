@@ -11,5 +11,5 @@ module.exports = {
     async execute(interaction) {
         const text = interaction.options.getString('text', true);
         await interaction.reply(text);
-    },
+    }
 }
