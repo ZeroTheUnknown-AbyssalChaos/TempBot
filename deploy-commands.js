@@ -17,6 +17,7 @@ for (const folder of commandFolders) {
     const filePath = path.join(commandsPath, file);
     const command = require(filePath);
     commands.push(command.data.toJSON());
+    console.log(`✅ Command geladen: ${command.data.name} (${file})`);
   }
 }
 
